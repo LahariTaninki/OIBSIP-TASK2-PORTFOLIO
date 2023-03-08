@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Nunito:wght@500&display=swap');
 :root{
-    --yellow:#01fff7;
+    --skyblue:#01fff7;
 }
 *{
     font-family: 'Nunito',sans-serif;
@@ -15,7 +15,7 @@
 }
 
 *::selection{
-    background: var(--yellow);
+    background: var(--skyblue);
     color: #333;
 
 }
@@ -32,7 +32,7 @@ html::-webkit-scrollbar-track{
 
 }
 html::-webkit-scrollbar-thumb{
-    background: var(--yellow);
+    background: var(--skyblue);
 
 } 
 body{
@@ -59,7 +59,7 @@ section{
     font-size: 1.8rem;
 }
 .btn:hover{
-    background:var(--yellow) ;
+    background:var(--skyblue) ;
 }
 .heading{
     text-align:center;
@@ -70,7 +70,7 @@ section{
     color:#fff;
 }
 .heading span{
-    color: var(--yellow);
+    color: var(--skyblue);
 }
 header{
     position: fixed;
@@ -92,7 +92,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom:1rem;
-    border: 0.5rem solid var(--yellow);
+    border: 0.5rem solid var(--skyblue);
 }
 header .user .name{
     font-size: 3.5rem;
@@ -120,7 +120,7 @@ header .navbar ul{
     border-radius: 5rem;
 }
 header .navbar ul li a:hover{
-    background: var(--yellow);
+    background: var(--skyblue);
 }
 #menu{
     position: fixed;
@@ -149,7 +149,7 @@ header .navbar ul li a:hover{
     color: #fff;
 }
 .home h1 span{
-    color:var(--yellow);
+    color:var(--skyblue);
 }
 .home p{
     font-size: 2rem;
@@ -169,7 +169,7 @@ header .navbar ul li a:hover{
 }
 .about .row .info p{
     font-size: 2rem;
-    color:var(--yellow);
+    color:var(--skyblue);
     padding: 1rem 0;
     font-weight: normal;
 
@@ -219,7 +219,7 @@ header .navbar ul li a:hover{
     line-height: 5rem;
     text-align: center;
     color: #fff;
-    background: var(--yellow);
+    background: var(--skyblue);
 
 }
 .skills .box-container{
@@ -297,7 +297,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 0.4rem;
-    color:var(--yellow);
+    color:var(--skyblue);
     /* background: var(--yellow); */
 }
 
